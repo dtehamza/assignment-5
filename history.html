@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/fa3b2ca8f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="max-w-7xl mx-auto pt-8">
+        <div class="navbar px-[137.5px] py-5  bg-lime-100">
+            
+            <div class="navbar-start py-5">
+                <button onclick="location.href='index.html'"class="rounded-xl py-3 px-8 font-semibold bg-[#B4F461]">Home</button>
+            </div>
+            <div class="navbar-center hidden lg:flex gap-2">
+                <img src="assets/logo.png">
+              <h3 class="font-semibold">Donate Bangladesh</h3>
+            </div>
+            <div class="navbar-end">
+              <a class="flex">
+                <img class="p-2" src="assets/coin.png" alt="">
+                <h4 id="total-amount" class="p-2 text-xl text-base font-bold">5500</h4>
+                <h1 class="p-2 text-xl font-bold">BDT</h1>
+              </a>
+            </div>
+           
+        </div>
+        <div class="navbar-center flex justify-center gap-4 pt-20 pb-8">
+            <button class="btn hover:bg-lime-300 text-xl"onclick="location.href='index.html'">Donation</button>
+            <button class="hover:bg-lime-300 btn text-xl">History</button>         
+
+
+            </div>
+        </div>
+        
+    </nav>
+
+
+    <div id="history">
+        <p>
+
+        </p>
+
+    </div>
+      
+    <script src="js/scripts.js"></script>
+</body>
+</html>

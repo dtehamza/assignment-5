@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    
+
+
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/fa3b2ca8f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+    <nav class="max-w-7xl mx-auto pt-8">
+        <div class="navbar px-[137.5px] py-5 bg-lime-100">
+            
+            <div class="navbar-start py-5 ">
+                <button onclick="location.href='index.html'"class="rounded-xl py-3 px-8 font-semibold bg-[#B4F461]">Home</button>
+            </div>
+            <div class="navbar-center hidden lg:flex gap-2">
+                <img src="assets/logo.png">
+              <h3 class="font-semibold">Donate Bangladesh</h3>
+            </div>
+            <div class="navbar-end">
+              <a class="flex">
+                <img class="p-2" src="assets/coin.png" alt="">
+                <h4 id="total-amount" class="p-2 text-xl text-base font-bold">5500</h4>
+                <h1 class="p-2 text-xl font-bold">BDT</h1>
+              </a>
+            </div>
+           
+        </div>
+        <div class="navbar-center flex justify-center gap-4 pt-20 pb-8">
+            <button class="btn hover:bg-lime-300 text-xl" onclick="location.href='index.html'">Donation</button>
+            <button class="hover:bg-lime-300 btn   text-xl" onclick="location.href='history.html'">History</button>
+        </div>
+        
+    </nav>
+   
+
+    <main class="max-w-7cxl mx-[125px] pb-8">
+        <div class="max-w-7xl  pt-4 p-4 ">
+            <h1 class="text-4xl font-bold pt-3">Important FAQ<i class="fa-solid fa-comment-dots fa-bounce"></i></h1>
+                       
+        </div>
+
+        <div class="px-8">
+            <div class="">
+                <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">What is the Date Object Model DOM?</div>
+                    <div class="collapse-content">
+                      <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="">
+                <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                    <div class="collapse-content">
+                      <p>
+                        <ul>
+                            <li>1. Using getElementById: </li>
+                            <li>2. Using getElementsByClassName:</li>
+                            <li>3. Using getElementsByTagName:</li>
+                            <li>4. Using querySelector:</li>
+                            etc
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="">
+                <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">What is event delegation in the context of the dom and how is it useful</div>
+                    <div class="collapse-content">
+                      <p>TEvent delegation in JavaScript is a pattern that efficiently handles events. Events can be added to a parent element instead of adding to every single element. It refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated.e</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="">
+                <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">how do you multiple elements attributes and style in using dom</div>
+                    <div class="collapse-content">
+                      <p>
+                        <ul>
+                            <li>1. getElementsByClassName(),</li>
+                            <li>2. getElementsByTagName(),</li>
+                            <li>3. querySelectorAll()</li>
+                        </ul>  
+                    </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+  
+    </main>
+    
+</body>
+</html>
